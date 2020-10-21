@@ -1,0 +1,98 @@
+style.css
+body {
+	background-color: #2D4151;
+	color: #2D4151;
+	font-family: Courier;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+h1 {
+	font-family: Roboto;
+	color: #F69576;
+    font-size: 65px;
+    font-weight: 200;
+}
+
+h2 {
+	color: #2D4151;
+	font-family: roboto;
+	font-weight: lighter;
+	font-size :40px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration : none;
+	color: #2D4151;
+}
+
+a:hover {
+	color: #F69576;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width :760px) {
+	.container { 
+		width: 600px;
+  }
+    }
+
+@media (max-width :500px) {
+	.container { 
+		width: 400px;
+  }
+    }
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	width: 300px;
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #F69576;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color : #2D4151;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size : 50px;
+	color: #F69576;
+}
+
+.list-inline i:hover {
+	color: #2D4151;
+}
+
+#photo p {
+	margin-bottom: 70px;
+}
